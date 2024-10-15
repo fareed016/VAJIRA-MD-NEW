@@ -6,8 +6,8 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     
-SESSION_ID: process.env.SESSION_ID === undefined ? '' : process.env.SESSION_ID,
-OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '' : process.env.OWNER_NUMBER,   
+SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=zR0QhZ7J#MJPOOEH2GUGmcmwmEvPMx_Me7BPewstrDj5UZnl3rd0' : process.env.SESSION_ID,
+OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '933038590106' : process.env.OWNER_NUMBER,   
 ONLY_GROUP: process.env.ONLY_GROUP === undefined ? 'false' : process.env.ONLY_GROUP,
 ONLY_ME: process.env.ONLY_ME === undefined ? 'false' : process.env.ONLY_ME,
 AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,    
@@ -39,7 +39,7 @@ MATHS_AI: process.env.MATHS_AI || false  ,
 WELCOME: process.env.WELCOME || false  ,    
 LOGO: process.env.LOGO || `https://telegra.ph/file/cce13b56a460afc9f4139.jpg` ,
 COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,    
-ANTI_DELETE : process.env.ANTI_DELETE || false ,
+ANTI_DELETE : process.env.ANTI_DELETE || 'true' ,
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO        
     
 };
